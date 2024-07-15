@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techsol Engineers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+        .banner h1 {
+            font-size: 3em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Techsol Engineers</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="banner" id="home">
+    <h1>Innovative Engineering Solutions for Industrial Safety</h1>
+    <p>Ensuring Excellence with Advanced Technology and Reliable Hardware</p>
+    <button onclick="document.location.href='#services'">Learn More</button>
+</div>
+
+<div class="content">
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Techsol Engineers. We specialize in providing innovative engineering solutions, focusing on industrial safety with Honeywell gas and flame detection systems. Our mission is to integrate advanced technology and reliable hardware to ensure excellence and professional growth in the industry.</p>
+    </div>
+
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Gas Detection Systems</li>
+            <li>Flame Detection Systems</li>
+            <li>System Integration</li>
+            <li>Custom Engineering Solutions</li>
+            <li>Maintenance and Support</li>
+        </ul>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Our Projects</h2>
+        <p>Explore our recent projects that showcase our expertise in industrial safety solutions.</p>
+        <!-- Add project details here -->
+    </div>
+
+    <div class="section" id="blog">
+        <h2>Blog</h2>
+        <p>Stay updated with the latest industry news, safety technology articles, company updates, and guest posts from industry experts.</p>
+        <!-- Add blog posts here -->
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Office Address: 123 Engineering Lane, Tech City</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@techsolengineers.com</p>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Techsol Engineers | Privacy Policy</p>
+</footer>
+
+</body>
+</html>
